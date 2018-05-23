@@ -12,7 +12,7 @@ public class Main {
             }
 
             if(i % 3 == 0 && i % 5 != 0) {
-                string.append(i + ", ");
+                string.append(i).append(", ");
             }
         }
 
